@@ -1,0 +1,9 @@
+{
+  "name": "cdl-website",
+  "version": "1.0.0",
+  "description": "Website for Cyrrus Delta Labs",
+  "main": "index.html",
+  "repository": "https://github.com/luccin243/cdl-website",
+  "author": "Cyrrus Delta Labs",
+  "license": "MIT"
+}
