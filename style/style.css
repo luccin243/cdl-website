@@ -34,26 +34,148 @@ body {
 }
 
 .dot:nth-child(1) {
-  animation-delay: 0;
+  animation-delay: 1s;
 }
 .dot:nth-child(2) {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 .dot:nth-child(3) {
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
 @keyframes progress {
   0% {
-    transform: translateY(0px);
+    transform: translateX(0px);
     opacity: 0;
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateX(10px);
     opacity: 1;
   }
   100% {
-    transform: translateY(0px);
+    transform: translateX(20px);
     opacity: 0;
   }
 }
+#search {
+  margin-left: 80vw;
+  margin-top: 5vh;
+  border-radius: 20px;
+}
+#search:hover {
+  width: 200px;
+  box-shadow: 2px 4px gray;
+}
+.btns {
+  word-spacing: 5.0vw;
+}
+#btn1:hover {
+  background-color: greenyellow;
+  width: 90px;
+  border-radius: 20px;
+}
+#btn2:hover {
+  background-color: greenyellow;
+  width: 90px;
+  border-radius: 20px;
+}
+#btn3:hover {
+  background-color: greenyellow;
+  width: 90px;
+  border-radius: 20px;
+}
+#btn4:hover{
+  background-color: greenyellow;
+  width: 90px;
+  border-radius: 20px;
+}
+#btn5:hover {
+  background-color: greenyellow;
+  width: 90px;
+  border-radius: 20px;
+}
+h2 {
+  color: cyan;
+  text-align: center;
+  animation: move 2s;
+}
+.head {
+  margin-top: 10vh;
+
+}
+@keyframes move {
+  0% {
+    font-display: none;
+  }
+  50% {
+    font-size: medium;
+    color: red;
+  }
+  100% {
+    font-size: x-large;
+  }
+}
+abbr {
+  color: red;
+}
+#welcome {
+  font-size: 3vw;
+}
+#move1 {
+  animation: down 3s;
+}
+@keyframes down{
+  0% {
+    transform : translateY(0px);
+  }
+  50% {
+    transform : translateY(200px);
+  }
+  100% {
+    transform : translateY(0px);
+  }
+}
+#about_us {
+  background-color: blanchedalmond;
+  color: black;
+  font-family:sans-serif;
+ /* margin: 30px;*/
+}
+strong {
+  font-size: 25px;
+}
+.row {
+  margin: 30px;
+  
+}
+.col-sm-12 {
+  color: goldenrod;
+  background-color: black;
+}
+.contact {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 300px;
+}
+#dan, #kim {
+  border-radius: 50%;
+  margin-left: 25%;
+  padding-top: 15px;
+
+}
+.dan, .kim {
+  height: 300px;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+#flet1, #flet11 {
+  float:left;
+  padding-top: 100px ;
+}
+#flet2, #flet22{
+  float: right;
+  padding-top: 100px ;
+}
+
